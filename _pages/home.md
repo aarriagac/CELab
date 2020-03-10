@@ -3,7 +3,7 @@ title: "Sanders Lab - Home"
 layout: homelay
 excerpt: "Sanders Lab at UCSF."
 sitemap: false
-permalink: /
+permalink: /home/
 ---
 
 # Welcome to Sanders Lab at UCSF
