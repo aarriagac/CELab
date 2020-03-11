@@ -118,17 +118,16 @@ firstp {
 .pub1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 19px;
-	font-weight: 300;
-	line-height: 23px;
-  color: Navy;
 	font-weight: bold;
-  cursor:pointer;
+	line-height: 23px;
+  	color: #000080;
+  	cursor:pointer;
 }
 
 .pub1:hover{
-color:Navy;
-  text-decoration: underline;
-  text-decoration-color: darkgray;
+	color: #000080;
+  	text-decoration: underline;
+  	text-decoration-color: #000080;
 	font-weight: bold;
 	
 }
