@@ -60,6 +60,8 @@ firstp {
 	margin-bottom: 6px;
   margin-left: 15%;
   margin-right: 15%;
+	max-width: 240px;
+  width: 70%;
 }
 
 /* Team & Publications */
@@ -255,9 +257,4 @@ a:visited {
 
 .navbar-collapse ul li a:hover {
   color: red;
-}
-
-.imgnew {
-  max-width: 240px;
-  width: 70%; 
 }
