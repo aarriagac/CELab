@@ -9,7 +9,7 @@
 title: The Sanders Lab
 email: your-email@domain.com
 description: 
-baseurl: ""
+baseurl: "/celab"
 url: ""
 
 include:
