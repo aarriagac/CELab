@@ -42,12 +42,13 @@ firstp {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1000px; /* or 950px */
+  width: 90%;
+  max-width: 1200px; /* or 950px */
 }
 
 /* Home, News */
 #newsid p {
-	text-align: left;
+	text-align: justify;
 }
 
 #homeidtmp h1 {
@@ -57,10 +58,12 @@ firstp {
 #newsid img {
 	margin-top: 6px;
 	margin-bottom: 6px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 /* Team & Publications */
-#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
+#gridid img { margin: 16px 22px 6px 20px; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
 #homeid img { margin: 2px 2px 2px 2px; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
 #picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
 #gridid .row { margin-bottom: 8px; margin-left: 2px; margin-right: 2px; }
@@ -120,25 +123,48 @@ firstp {
 	font-size: 19px;
 	font-weight: bold;
 	line-height: 23px;
-  	color: #000080;
-  	cursor:pointer;
+//  	color: #176EC4;
+//  	cursor:pointer;
 }
 
-.pub1:hover{
-	color: #000080;
-  	text-decoration: underline;
-  	text-decoration-color: #000080;
+.pub3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 19px;
 	font-weight: bold;
-	
+	line-height: 23px;
+
+  cursor: text;
 }
 
+.pub3:hover {
+  text-decoration: none;
+}
+
+/*
+.pub1:hover{
+	color: #176EC4;
+//  	text-decoration: underline;
+  	text-decoration-color: #176EC4;
+	font-weight: bold;
+}
+*/
 .pub2 {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 	font-size: 16px;
-  font-weight: bold;
-  color: black;
-	
-  pointer-events: none;
+//  font-weight: bold;
+//  color: black;
+
+//  pointer-events: none;
+}
+
+.liga {
+  color: #176EC4;
+  cursor:pointer;
+}
+
+.liga:hover {
+  color: #176EC4;
+  text-decoration: underline;
 }
 
 .bigspacer {
@@ -151,8 +177,82 @@ firstp {
   cursor:pointer;
 }
 
-regtext:hover{
-color:black;
+.regtext:hover{
+  color: red;
   text-decoration: underline;
   text-decoration-color: darkgray;
+}
+
+.navbar-custom > li > a{
+  color: black;
+  font-weight: 500;
+}
+
+.navbar-custom > li > a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.just {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/*
+@media screen and (max-width: 800px){
+    .just {
+        text-align: left;
+    }
+}
+*/
+
+.tpos {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media screen and (max-width: 800px){
+    .tpos {
+        text-align: left;
+    }
+}
+
+a:link {
+  color: #176EC4;
+}
+
+a:visited {
+  color: #176EC4;
+}
+
+/* stroke */
+.stroke ul li a {
+  position: relative;
+}
+
+.stroke ul li a,
+.stroke ul li a:after,
+.stroke ul li a:before {
+  transition: all .5s;
+}
+
+.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #333;
+  height: 1px;
+}
+
+.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+.navbar-collapse ul li a:hover {
+  color: red;
 }

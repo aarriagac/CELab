@@ -3,15 +3,18 @@ title: "Sanders Lab - Publications"
 layout: gridlay
 excerpt: "Sanders Lab -- Publications."
 sitemap: false
-permalink: /publications/
+permalink: /publicaciones/
 ---
 
 
-# Publications
+# Publicaciones
 
 ---
+Puede ver la lista completa en la siguiente
+<a class="liga" href="#lista-completa">sección</a>
+o puede revisar <a class="liga" href="https://scholar.google.com/citations?user=4zBCxAgAAAAJ&hl=es&oi=sra">Google Scholar</a>.
 
-## Featured
+## Destacadas
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -24,10 +27,11 @@ permalink: /publications/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
- <div class="well">
+ <div class="row">
  	<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="25%" style="float: right" />
-  <p><a class="pub1" href="{{ publi.link.url }}">{{ publi.title }}</a></p>
-  <a class="pub2"> {{ publi.link.display }} </a>
+  <p><a class="pub3">{{ publi.title }}</a></p>
+  <p><em>{{ publi.authors }}</em></p>
+  <a class="pub2" href="{{ publi.link.url }}"> {{ publi.link.display }} </a>
  </div>
 </div>
 
@@ -50,10 +54,17 @@ permalink: /publications/
 ---
 
 <div>
-## Full List
 
-For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?user=O1EuSPYAAAAJ">Google Scholar</a> or <a class="regtext" href="https://www.ncbi.nlm.nih.gov/pubmed?term=Sanders%20SJ%5BAuthor%5D">Pubmed</a>.
+## Lista Completa
+
+{% for publi in site.data.publist %}
+
+  <strong>{{ publi.title }}</strong> <br />
+  <em>{{ publi.authors }} </em><br /><a class="liga" href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+
+{% endfor %}
+
+<!-- For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?user=O1EuSPYAAAAJ">Google Scholar</a> or <a class="regtext" href="https://www.ncbi.nlm.nih.gov/pubmed?term=Sanders%20SJ%5BAuthor%5D">Pubmed</a>.
 <br><br><br>
-
+-->
 </div>
-

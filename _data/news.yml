@@ -1,4 +1,8 @@
 #Archivo para subir las noticias de la pagina principal (home)
 
-#- date: Dec 13th 2018
-#  headline: "New paper! <a href='http://science.sciencemag.org/content/362/6420/eaat6576.long'> An et al. 2018 </a> published in Science, highlights the role of promoters in autism."
+- date: Dec 13th 2018
+  headline: "New paper!
+  <a class=\"liga\" href='http://science.sciencemag.org/content/362/6420/eaat6576.long'>
+  An et al. 2018</a>
+  published in Science, highlights the role of promoters in autism.
+  <img src='/images/newspic/order.png' class='img-responsive' style='max-width: 240px; width: 70%' />"

@@ -3,7 +3,7 @@ title: "Sanders Lab - Code"
 layout: textlay
 excerpt: "Sanders Lab -- Code."
 sitemap: false
-permalink: /code/
+permalink: /codigo/
 ---
 
 
@@ -14,7 +14,7 @@ permalink: /code/
 ## [PsychCore Genomics Pipeline](https://github.com/sanderslab/psychcore-compute-platform)
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/WGS_Pipeline_Image.png" style="width: 300px"> 
+<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/WGS_Pipeline_Image.png" style="width: 300px">
 
 This containerized pipeline was developed for high-throughput parallel processing on the Amazon Web Services cloud platform. It was deployed to process whole-genome sequencing data from FASTQ to VCF for analysis of the human prefrontal cortex across development.
 
@@ -26,7 +26,7 @@ This containerized pipeline was developed for high-throughput parallel processin
 ## [wgsPowerTest](https://github.com/stephansanders/wgsPowerTest)
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/wgspower.png" style="width: 300px"> 
+<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/wgspower.png" style="width: 300px">
 
 This R package runs power calculations for the discovery of variants in whole genome sequencing data.
 
@@ -37,7 +37,7 @@ This R package runs power calculations for the discovery of variants in whole ge
 
 ## [SCN2A Variant Browser](https://public.tableau.com/profile/ucsf.psychiatry.bioinformatics.core#!/vizhome/SCN2AVariantViz6_0/Dashboard1)
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/scn2aviz.png" style="width: 300px"> 
+<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/scn2aviz.png" style="width: 300px">
 
 The database SCN2A variants.
 
@@ -50,7 +50,7 @@ The database SCN2A variants.
 ## [CNVision](https://sourceforge.net/projects/cnvision/)
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/cnvision.png" style="width: 300px"> 
+<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/cnvision.png" style="width: 300px">
 
 CNVision is designed for detecting and scoring Copy Number Variants (CNVs) from Illumina SNP genotyping data. It runs in a UNIX environment and works with all Illumina chips (from 300k to latest Omni). CNVs are predicted using PennCNV, QuantiSNPv2.3, and GNOSIS (an in-built algorithm). The predicted CNVs are merged, joined (if appropriate), and scored based on the per SNP variability in the raw genotyping data. CNVision can also identify de novo CNVs in family-based data using the per SNP variability algorithm. Comparison with 1000 Genomes, the Genome Structural Variation Consortium, and replicate Illumina data demonstrates the efficacy of the CNV scoring method in both inherited and de novo CNVs.
 ​
@@ -74,7 +74,7 @@ CNVision was written to analyze data for the Simons Simplex Collection autism da
 
 ## [UNIX treasure hunt tutorial]()
 ​
-​<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/th.png" style="width: 200px"> 
+​<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/th.png" style="width: 200px">
 ​
 
 This perl script will install a series of directories and clues that teaches basic UNIX command line skills including `cd`, `ls`, `grep`, `less`, `head`, `tail`, and `nano`. Run the perl script from the command line on a UNIX based machine (e.g. Mac or Linux) using the command: `perl treasureHunt_v2.pl`. Then use `ls` to find the first clue. A PDF of command line commands is also available to download.
@@ -83,5 +83,3 @@ This perl script will install a series of directories and clues that teaches bas
 - <a href="https://www.dropbox.com/s/xw5c1ra4td9k966/Unix_basics.pdf?dl=0"><i class='fa fa-book'></i> Manual</a>
 
 ---
-
-

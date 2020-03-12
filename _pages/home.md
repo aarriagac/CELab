@@ -4,46 +4,52 @@ layout: homelay
 excerpt: "Sanders Lab at UCSF."
 sitemap: false
 redirect_from: "/"
-permalink: /home/
+permalink: /inicio/
 ---
-
+<!--
 # Welcome to Sanders Lab at UCSF
+-->
+
+![]({{ site.url }}{{ site.baseurl }}/images/Lab_Logo_v6c.png){: style="width: 50%; max-width: 170px; float: left; margin-left: 10px; margin-right: 20px; border: 10px"}
+
+Escribir lo que se desea de manera directa, documento escrito en markdown lo que permite una escritura directa y sencilla, algunos comandos se pueden utilizar para dar al texto estilo de manera sencilla, dejando dos lineas en blanco en el documento representa un punto y aparte.
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/Lab_Logo_v6c.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
+La manera más sencilla de comentar texto es encerrado el comentario entre el siguiente comando, se inicia con <strong>\<!\--</strong> y se termina con <strong>\--></strong>.
 
 
-The Sanders Lab aims to identify the etiology of developmental disorders through the discovery of genetic risk factors. Over the past few years there has been rapid progress in identifying the genes that play a role in autism spectrum disorder (ASD). We aim to continue this progress, leverage these findings to build a more complete understanding of ASD, and to extend this approach to other human disorders, including congenital malformations.
+Algunas otras caracteristicas importantes son:
+
+1. **negritas en tamaño normal**: Encerrar texto entre doble asterísco (<strong>\**</strong>) lo pondra en negritas como en esta numeración.
+2. **Detección de numeración**: Se detecta la numeración al poner el número y un punto.
 
 
-There are five main areas of research:
+### Ligas
+Es muy sencillo escribir ligas de manera directa en markdown, simplemente se coloca el texto que se desea la liga entre corchetes <strong>[ ]</strong> y la liga correspondiente se coloca inmediatamente despues entre paréntesis <strong>( )</strong>. El ejemplo es [este texto](http://www.google.com) que tiene una liga a google.
 
-1. **Gene discovery**: Genomic analysis of DNA using high-throughput sequencing to identify genes associated with human disorders
-2. **Understanding the noncoding genome**: Using whole-genome sequencing to identify the elements of the noncoding genome that contribute to ASD
-3. **The role of SCN2A in human disorders**: SCN2A mutations are one of the most common causes of ASD; we aim to understand how this risk is mediated with the view to developing therapeutics
-4. **Understanding neurodevelopment**: Leveraging functional genomic data to understand physiological brain development and the pathology associated with neuropsychiatric disorders
-5. **Sex bias in ASD**: Identifying genes and gene networks that lead to the preponderance of males diagnosed with ASD
 
-### Technologies and methods
-The Sanders Lab is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including: whole-exome sequencing, whole-genome sequencing, de novo mutation detection, RNA-Seq, and ChIP-Seq.
+### Otras páginas
+Para las demas secciones las instrucciones se encuentran en cada archivo a modificar o se encuentra un ejemplo de la estructura que tienen que tener las entradas en los archivos como noticias y publicaciones. En el caso de investigación y código, también están escritos en markdown y se encuentra un ejemplo en cada uno de los archivos para mostrar como se agrega la imagen y el texto.
 
-### Collaborators
-We work with closely with numerous collaborators, including the [State Lab](https://www.mstatelab.com/) and [Bender Lab](https://benderlab.ucsf.edu/lab-members) at UCSF, the [Devlin Lab](http://www.psychiatry.pitt.edu/person/bernard-j-devlin-phd) at UPMC, the [Roeder Lab](http://www.stat.cmu.edu/~roeder/) at Carnegie Mellon, the [Sestan Lab](http://medicine.yale.edu/lab/sestan/index.aspx), and the [Talkowski lab](http://talkowski.mgh.harvard.edu/) at Harvard.
 
-### Joining Sanders Lab
-If you are interested in joining please go to the [recruitment](recruitment) page.
-
-### Funding
-We are grateful for funding from the [National Institute of Mental Health](https://www.nimh.nih.gov/) and the [The Simons Foundation Autism Research Initiative](https://www.sfari.org/), the [Autism Science Foundation](https://autismsciencefoundation.org/), and the [Brain & Behavior Research Foundation](https://www.bbrfoundation.org/).
+### Logos de colaboradores
+Si se desea incluir logos de instituciones colaboradoras o que apoyen al laboratorio se puede hacer con el código que incluye las que están abajo, simplemente se debe cambiar la ruta en el archivo que genera esta página (en los ejemplos la ruta es /images/logopic/nombre_del_logo) y guardar la imagen en la carpeta de images.
 
 <figure class="third">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NIMH.png" style="width: 200px">	<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_SFARI.png" style="width: 200px">
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ASF.jpeg" style="width: 200px"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BBRF.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NIMH.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_SFARI.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ASF.jpeg" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BBRF.png" style="width: 200px">
 </figure>
 
 
+### Títulos
+Para dar énfasis a los títulos antes de ellos es posible poner uno o varios simbolos de hastag (<strong>\#</strong>) y un espacio entre los simbolos y el texto para ponerlo en mayor tamaño y en negritas. Entre más simbolos se utilicen menor será el incremento de tamaño de la letra, pueden colocarse 1, 2 o 3. El funcionamiento se muestra abajo.
+
+# 1 Hastag
 
 
+## 2 Hastags
 
 
+### 3 hastags

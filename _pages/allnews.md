@@ -3,7 +3,7 @@ title: "Sanders Lab - News"
 layout: textlay
 excerpt: "Sanders Lab at UCSF."
 sitemap: false
-permalink: /allnews.html
+permalink: /noticias/
 ---
 
 # News
