@@ -18,7 +18,7 @@ San Luis Potosí,
 S.L.P.,
 C.P. 78210
 
-<img class="imgcontacto" src="{{ site.url }}{{ site.baseurl }}/images/contactpic/mapa2.png">
+<img class="imgcontacto" src="{{ site.url }}{{ site.baseurl }}/images/contactpic/mapa.png">
 
 
 ### Estacionamiento
