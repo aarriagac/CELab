@@ -1,7 +1,7 @@
 ---
-title: "Sanders Lab - News"
+title: "CELab - Noticias"
 layout: textlay
-excerpt: "Sanders Lab at UCSF."
+excerpt: "CELab at UASLP."
 sitemap: false
 permalink: /noticias/
 ---

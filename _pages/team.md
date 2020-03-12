@@ -1,18 +1,18 @@
 ---
-title: "Sanders Lab - Team"
+title: "CELab - Miembros"
 layout: gridlay
-excerpt: "Sanders Lab: Team members"
+excerpt: "CELab: Miembros del grupo"
 sitemap: false
 permalink: /miembros/
 ---
 
-# Team Members
-(Please click the name below for the lab memeber's profile)
+# Miembros
 
+**Buscamos nuevos estudiantes de maestría y doctorado para unirse al equipo** [(ver información)]({{ site.url }}{{ site.baseurl }}/posiciones) **!**
 
 ---
 
-## Principal Investigator
+## Investigador Principal
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -45,7 +45,7 @@ permalink: /miembros/
 
 ---
 
-## Trainee
+## Investigadores asociados
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -78,7 +78,7 @@ permalink: /miembros/
 
 ---
 
-## Staff
+## Estudiantes de Posgrado
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -111,7 +111,7 @@ permalink: /miembros/
 
 ---
 
-## PsychCore Genomics Core
+## Estudiantes de Licenciatura
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -144,7 +144,7 @@ permalink: /miembros/
 
 ---
 
-## Intern/Visitor
+## Estudiantes de Estancia
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -177,7 +177,7 @@ permalink: /miembros/
 
 ---
 
-## Alumni
+## Egresados
 
 {% for member in site.data.team_members %}
 {% if member.group == 8 %}
@@ -192,6 +192,7 @@ permalink: /miembros/
 {% endfor %}
 
 ---
-
+<!--
 ## Administrative Support
 Please contact our lab manager, <a href="mailto:Clif.Duhn@ucsf.edu">Clif Duhn</a>.
+-->

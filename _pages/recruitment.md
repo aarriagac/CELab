@@ -1,28 +1,31 @@
 ---
-title: "Sanders Lab - Recruitment"
+title: "CELab - Únete"
 layout: textlay
-excerpt: "Openings"
+excerpt: "Posiciones."
 sitemap: false
-permalink: /recruitment/
+permalink: /posiciones/
 ---
-
+<!--
 # Open positions
 
-Thank you for your interest in joining the Sanders Lab.
+We are always looking for new group members with passion, talent, and grit!
 
-## Graduate students
+You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
 
-Dr. Sanders is a member of the [Neuroscience graduate program (part of PIBS)](https://neurograd.ucsf.edu/about-neuroscience-graduate-program) and the [Pharmaceutical Sciences and Pharmacogenomics (PSPG) graduate program](https://pspg.ucsf.edu), which is part of the [Quantitative Biosciences Consortium (QBC)](https://qbc.ucsf.edu). If you are interested in a rotation in the Sanders Lab, please contact Dr. Sanders directly using the details on his [USCF profile page](https://profiles.ucsf.edu/stephan.sanders). We are primarily a computational lab working on the genetics of neurodevelopmental disorders, so a background in coding and/or genetics helps students make the most of their rotation.
+### Current open positions
 
-If you are interested, please contact Dr. Sanders directly using the details on his [USCF profile page](https://profiles.ucsf.edu/stephan.sanders).
+You find the current job openings here:
+[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
+[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf).
 
-## Postdoctoral researchers
+It might be interesting to look at some past job advertisements. While the projects keep changing, the themes are still roughly the same. You can download them [here]({{ site.baseurl }}/downloads/PD.pdf), [here]({{ site.baseurl }}/downloads/PHD1.pdf), or [here]({{ site.baseurl }}/downloads/PHD2.pdf).
+-->
+### Aplicar para realizar estudios de Doctorado
 
-We have more data and research ideas than trainees, so are keen to recruit exceptional researchers. The lab offers a collaborative and supportive environment and has a strong track record in helping students develop and begin their own independent research careers. The lab has expertise in high-performance computing and analytical pipelines, allowing novel analytic methods to be performed at scale. We are currently looking for researchers with a strong computational background in:
 
-- Genomic and functional genomic analysis, including whole-genome sequencing, single-cell sequencing, and integrative analysis of genomic and functional genomic data 
-- Statistical analysis, including network analysis and quantitative trait analysis
-- Genetic therapies, including antisense oligonucleotides (ASOs), gene replacement, and CRISPR-based approaches for the treatment of rare genetic disorders in humans
+### Proyectos para realizar estudios de Maestría
 
-If you are interested, please contact Dr. Sanders directly using the details on his [USCF profile page](https://profiles.ucsf.edu/stephan.sanders).
 
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/Werling2018.png" width="95%">
+</figure>

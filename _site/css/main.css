@@ -2421,3 +2421,7 @@ a:visited { color: #176EC4; }
 .stroke ul li a:hover:after { width: 100%; }
 
 .navbar-collapse ul li a:hover { color: red; }
+
+.imgcontacto { width: 70%; max-width: 900px; margin-left: 15%; margin-right: 15%; }
+
+@media screen and (max-width: 800px) { .imgcontacto { width: 90%; max-width: 600px; margin-left: 5%; margin-right: 5%; } }

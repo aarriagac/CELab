@@ -1,7 +1,7 @@
 ---
-title: "Sanders Lab - Home"
+title: "CELab - Inicio"
 layout: homelay
-excerpt: "Sanders Lab at UCSF."
+excerpt: "CELab at UASLP."
 sitemap: false
 redirect_from: "/"
 permalink: /inicio/
@@ -10,7 +10,7 @@ permalink: /inicio/
 # Welcome to Sanders Lab at UCSF
 -->
 
-![]({{ site.url }}{{ site.baseurl }}/images/Lab_Logo_v6c.png){: style="width: 50%; max-width: 170px; float: left; margin-left: 10px; margin-right: 20px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/uaslp.png){: style="width: 50%; max-width: 170px; float: left; margin-left: 10px; margin-right: 20px; border: 10px"}
 
 Escribir lo que se desea de manera directa, documento escrito en markdown lo que permite una escritura directa y sencilla, algunos comandos se pueden utilizar para dar al texto estilo de manera sencilla, dejando dos lineas en blanco en el documento representa un punto y aparte.
 
@@ -36,10 +36,10 @@ Para las demas secciones las instrucciones se encuentran en cada archivo a modif
 Si se desea incluir logos de instituciones colaboradoras o que apoyen al laboratorio se puede hacer con el código que incluye las que están abajo, simplemente se debe cambiar la ruta en el archivo que genera esta página (en los ejemplos la ruta es /images/logopic/nombre_del_logo) y guardar la imagen en la carpeta de images.
 
 <figure class="third">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NIMH.png" style="width: 200px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_SFARI.png" style="width: 200px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ASF.jpeg" style="width: 200px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BBRF.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uaslp.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uaslp.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uaslp.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uaslp.png" style="width: 200px">
 </figure>
 
 
