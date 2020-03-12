@@ -272,3 +272,15 @@ a:visited {
         margin-right: 5%;
     }
 }
+
+.navbar-copy > li > p{
+  color: black;
+  font-weight: 500;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.navbar-copy > li > p:hover{
+  color: black;
+  text-decoration: none;
+}
