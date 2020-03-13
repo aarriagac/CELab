@@ -14,6 +14,6 @@ permalink: /investigacion/
 
 ## Diseño de circuitos integrados
 <div style="text-align: justify">
-Aqui va la explicación.
+Cambio de explicación.
 </div>
 ----
