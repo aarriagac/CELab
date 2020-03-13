@@ -1,11 +1,11 @@
 ---
 layout: member
-title: Alfredo Arriaga Contreras
-position: Estudiante de Doctorado
-handle: aarriaga
-email: alfredo.arriaga@uaslp.mx
+title: José de Jesús De La Rosa De La Rosa
+position: Estudiante de Maestría
+handle: jjdelarosa
+email:
 twitter:
-github: aarriagac
+github: 
 scholar:
 linkedin:
 photo: bio-photo.jpg
