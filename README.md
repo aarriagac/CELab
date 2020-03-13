@@ -1,4 +1,4 @@
-# CELab
+# CELab UASLP
 
 Nuestro sitio está basado en el template diseñado y compartido por los laboratorios de D. Allan Drummond, Trevor Bedford y Sanders Lab. Descargamos los códigos fuente de sus repositorios y modificamos el contenido de acuerdo a nuestras necesidades. Les agradecemos a los 3 grupos por permitir el reuso de su código base.
 
